@@ -20,7 +20,7 @@ Depende del lenguaje, pero tienes `./src/app.js`, `./src/style.css` y `./src/ind
 
 ### No veo mis cambios...
 
-Cada vez que cambies cualquier archivo dentro de la carpeta `./src`, la URL pública del sitio web se actualizará automáticamente (es un proceso llamado hot deploy). Recuerda también actualizar limpiando la caché (`command+shift+r` en Mac, `control+shift+r` en PC y Linux).
+Cada vez que cambies cualquier archivo dentro de la carpeta `./src`, la URL pública del sitio web se actualizará automáticamente (es un proceso llamado hot deploy). Recuerda también actualizar limpiando la caché (`command+shift+r` en Mpac, `control+shift+r` en PC y Linux).
 
 ### ¿Cómo incluyo más imágenes en mi proyecto?
 
