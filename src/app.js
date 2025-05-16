@@ -10,14 +10,13 @@ window.onload = () => {
   const btnSpeak  = document.querySelector("#speak");
   const excuseEl  = document.querySelector("#primera-excusa");
 
-  // Generar y hablar excusa al pulsar “Generar excusa”
+  // Generar y hablar excusa 
   btnGen.addEventListener("click", () => {
     const excuse = generateExcuse();
     excuseEl.innerHTML = excuse;
     
   });
 
-  // Solo hablar la excusa actual al pulsar “Hablar”
   btnSpeak.addEventListener("click", () => {
     speakExcuse(excuseEl.innerText);
   });
